@@ -55,3 +55,34 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-12 14:04:56.976
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-09-12 15:58:32.735
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_131.2\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)

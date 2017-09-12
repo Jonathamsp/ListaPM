@@ -1,0 +1,11 @@
+
+public class Main {
+	public void main(String[] args){
+		
+	};
+	//nada demais
+	private String tipoTriangulo(int lado1,int lado2,int lado3){
+		
+		return "";
+	};
+}

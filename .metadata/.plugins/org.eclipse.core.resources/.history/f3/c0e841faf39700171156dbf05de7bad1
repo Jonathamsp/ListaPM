@@ -1,0 +1,14 @@
+
+public class Media {
+	Double mediaParaPassar;
+	Double mediaParaReprovar;
+	public Media(Double mediaParaPassar, Double mediaParaReprovar){
+		this.mediaParaPassar = mediaParaPassar;
+		this.mediaParaReprovar = mediaParaReprovar;
+	}
+	public String notasAluno(Double nota1, Double nota2, Double nota3, Double nota4){
+		
+		
+		return ""
+	}
+}

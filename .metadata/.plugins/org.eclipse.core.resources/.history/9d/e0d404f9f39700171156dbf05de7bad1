@@ -1,0 +1,12 @@
+
+public class Media {
+	Double mediaParaPassar;
+	Double mediaParaReprovar;
+	public Media(Double mediaParaPassar, Double mediaParaReprovar){
+		this.mediaParaPassar = mediaParaPassar;
+		this.mediaParaReprovar = mediaParaReprovar;
+	}
+	public Double calculaMedia(int nota1, int nota2, int nota3, int nota4){
+		
+	}
+}

@@ -1,0 +1,41 @@
+
+public class Main {
+	public static void main(String[] args){
+		
+		Divisores teste = new Divisores(10);
+		
+		System.out.println (teste.retornaDivisores().get(1));
+		for (int i=0;i< teste.retornaDivisores().size();i++){
+			
+			System.out.println(teste.retornaDivisores().get(i));
+		}
+		
+	};
+	private String tipoTriangulo(int lado1, int lado2, int lado3){
+		if (lado1>lado2+lado3||lado2>lado1+lado3||lado3>lado1+lado2){
+			int aux=0;
+			if(lado1==lado2){
+				aux++;
+			}
+			if (lado2 == lado3){
+				aux++;
+			}
+			if (lado3==lado1){
+				aux++;
+			}
+			if (aux==0){
+				return "triangulo escaleno";
+			}
+			if (aux==1){
+				return "triangulo isoceles";
+			}
+			if (aux>1){
+				return "triangulo equilatero";
+			}
+		}else{
+			return "Triangulo nao existe";
+		}
+		return "nao sei como conseguiu chegar aqui. o interpretador do java e louco e pede"
+				+ "esse retorno que nunca sera usadado";
+	};
+}

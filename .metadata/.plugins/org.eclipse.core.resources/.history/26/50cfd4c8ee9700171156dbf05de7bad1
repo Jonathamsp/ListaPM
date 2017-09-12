@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Divisores {
+	private int num;
+	public Divisores(int num){
+		num = this.num;
+	}
+	public ArrayList<Integer> retornaDivisores(){
+		ArrayList<Integer> numeros = new ArrayList<Integer>();
+		for (int i=1; i<= num; i++){
+			if (num%i==0){
+				numeros.add(i);
+			}
+		}
+		return numeros;
+	}
+}

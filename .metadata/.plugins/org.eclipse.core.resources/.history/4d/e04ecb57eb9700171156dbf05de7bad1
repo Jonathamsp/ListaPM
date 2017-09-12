@@ -1,0 +1,7 @@
+
+public class Divisores {
+	private int num;
+	public Divisores(int num){
+		num = this.num;
+	}
+}
