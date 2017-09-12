@@ -2,11 +2,11 @@
 public class Main {
 	public static void main(String[] args){
 			
-		Divisores divisores = new Divisores(10);
-		System.out.println(divisores.retornaDivisores());
-		
-		Media escolaTioCareca = new Media(7.0, 4.0);
-		System.out.println(escolaTioCareca.notasAluno(6.0, 7.4, 8.2, 1.2));
+			Divisores divisores = new Divisores(10);
+			System.out.println(divisores.retornaDivisores());
+			
+			Media escolaTioCareca = new Media(7.0, 4.0);
+			System.out.println(escolaTioCareca.notasAluno(6.0, 7.4, 8.2, 1.2));
 			
 	};
 	public String tipoTriangulo(int lado1, int lado2, int lado3){
