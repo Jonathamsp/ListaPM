@@ -21,7 +21,7 @@ public class Main {
 		System.out.println(DistanciaLeve.calculaDistancia("Estrangulado", "Eletrocutado"));
 			
 	};
-	public String tipoTriangulo(int lado1, int lado2, int lado3){
+	public static String tipoTriangulo(int lado1, int lado2, int lado3){
 		if (lado1>lado2+lado3||lado2>lado1+lado3||lado3>lado1+lado2){
 			int aux=0;
 			if(lado1==lado2){

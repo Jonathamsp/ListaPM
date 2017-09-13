@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DivisoresTest {
+
+	@Test
+	public void testDivisores() {
+		Divisores test = new Divisores(10);
+		fail("Not yet implemented");
+	}
+
+}

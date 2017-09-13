@@ -1,0 +1,17 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class DivisoresTest {
+
+	@Test
+	public void testDivisores() {
+		Divisores test = new Divisores(10);
+		String resultado = test.retornaDivisores();
+		assertEquals("1 2 5 10 ", resultado);
+		Divisores test2 = new Divisores(20);
+		String resultado2 = test2.retornaDivisores();
+		assertEquals("1 2 5 10 20", resultado2);
+	}
+
+}
