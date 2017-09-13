@@ -1,0 +1,13 @@
+
+public class Times {
+
+	String times[][]=new String[4][];
+	public Times(String times[][]){
+		this.times=times;
+	};
+	public int quantidadePontos(String timeSelecionado){
+		
+		
+		return 2;
+	};
+}

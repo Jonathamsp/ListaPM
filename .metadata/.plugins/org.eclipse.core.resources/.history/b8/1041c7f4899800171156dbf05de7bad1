@@ -1,0 +1,10 @@
+
+public class DistanciaLeve {
+
+	public int calculaDistancia(String primeiraPalavra, String segundaPalavra){
+		int distanciaTotal=0;
+		distanciaTotal += Math.abs(primeiraPalavra.length()-segundaPalavra.length());
+		
+		return 2;
+	}
+}

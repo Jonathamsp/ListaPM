@@ -7,6 +7,18 @@ public class Main {
 		
 		Media escolaTioCareca = new Media(7.0, 4.0);
 		System.out.println(escolaTioCareca.notasAluno(6.0, 7.4, 8.2, 1.2));
+		
+		final String RESULTADOS[][] ={{"Flamengo", "3",	"0",	"Volta	Redonda"},
+									{"Volta Redonda",	"1",	"1",	"Botafogo"},
+									{"Bonsucesso",	"5",	"0",	"Macaé"},
+									{"Macaé",	"3",	"4",	"Fluminense"},
+									{"Botafogo",	"2",	"2",	"Flamengo"}
+		};
+		
+		Times times = new Times(RESULTADOS, 5);
+		System.out.println(times.quantidadePontos("Botafogo"));
+		
+		System.out.println(DistanciaLeve.calculaDistancia("Estrangulado", "Eletrocutado"));
 			
 	};
 	public String tipoTriangulo(int lado1, int lado2, int lado3){

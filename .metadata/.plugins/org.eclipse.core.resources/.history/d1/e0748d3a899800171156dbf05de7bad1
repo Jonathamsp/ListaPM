@@ -1,0 +1,7 @@
+
+public class DistanciaLeve {
+
+	public int calculaDistancia(String primeiraPalavra, String segundaPalavra){
+		
+	}
+}

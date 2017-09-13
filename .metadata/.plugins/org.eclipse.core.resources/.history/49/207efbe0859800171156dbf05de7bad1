@@ -1,0 +1,37 @@
+
+public class Times {
+
+	String times[][]=new String[4][];
+	public Times(String times[][]){
+		this.times=times;
+	};
+	public int quantidadePontos(String timeSelecionado){
+		int pontosDoTime=0;
+		for (int i=0; i<times[0].length;i++){
+			for (int j=0; j<3;j++){
+				if (times[i][j].equals(timeSelecionado)){
+					System.out.println("entrou aqui");
+					if (times[i][j+1]!=null){
+						if (Integer.parseInt(times[i][j+1])>Integer.parseInt(times[i][j+2])){
+							pontosDoTime+=3;
+						}
+						else if (Integer.parseInt(times[i][j+1])==Integer.parseInt(times[i][j+2])){
+							pontosDoTime+=1;
+						}
+					}else if (times[i][j-1]!=null){
+						if (Integer.parseInt(times[i][j-1])>Integer.parseInt(times[i][j-2])){
+							pontosDoTime+=3;
+						}
+						else if (Integer.parseInt(times[i][j-1])==Integer.parseInt(times[i][j-2])){
+							pontosDoTime+=1;
+						}
+						
+					}else{
+						
+					}
+				}
+			};
+		};
+		return pontosDoTime;
+	};
+}
