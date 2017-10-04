@@ -1,0 +1,23 @@
+
+public class BuscaBinaria {
+	public static void main (String[] args){
+		
+	}
+	public static int BuscaBinaria(int numeroProcurado, int[] arrayOrdenado){
+		int meio;     
+        int inicio = 0;     
+        int fim = arrayOrdenado.length-1;     
+        while (inicio <= fim) {     
+                 meio = (inicio + fim)/2;     
+                 if (numeroProcurado == arrayOrdenado[meio])     
+                          return true;     
+                 if (numeroProcurado < arrayOrdenado[meio])     
+                          fim = meio - 1;     
+                 else     
+                          inicio = meio + 1;     
+        }     
+        return false; 
+		return 0;
+	}
+
+}

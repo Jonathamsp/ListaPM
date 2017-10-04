@@ -653,3 +653,11 @@
 2017-10-04 10:21:53,617 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\main\resources
 2017-10-04 10:21:53,621 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-10-04 10:21:53,622 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\test\resources
+2017-10-04 10:42:52,767 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 10:42:52,770 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\main\resources
+2017-10-04 10:42:52,772 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 10:42:52,773 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\test\resources
+2017-10-04 10:43:05,928 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 10:43:05,928 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\main\resources
+2017-10-04 10:43:05,928 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-10-04 10:43:05,928 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\workspace\TrabalhoLista9\src\test\resources
