@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+import static org.mockito.*;
+
+public class BubbleSort {
+	public static void main (String[] args){
+		int[] array = new int[5];
+		int[] spyArray = Mockito.spy(array);
+		array[0]=10;
+		array[1]=15;
+		array[2] =8;
+		array[3]= 14;
+		array[4]= 2;
+		int[] arrayEsperado = {2, 8, 10, 14, 15};
+		
+		assertEquals(arrayEsperado, BubbleSort(spyArray));
+	}
+	public static int[] BubbleSort(int[] array){
+		int[] arrayOrdenado = array;
+		int aux;
+		for (int i =0; i<array.length; i++){
+			for (int j=0; j<array.length;i++){
+				if (arrayOrdenado[i]<arrayOrdenado[i+1]){
+					aux = arrayOrdenado[i];
+					arrayOrdenado[i]=arrayOrdenado[i+1];
+					arrayOrdenado[i+1]= aux;
+				}
+			}
+		}
+		return arrayOrdenado;
+	}
+}
