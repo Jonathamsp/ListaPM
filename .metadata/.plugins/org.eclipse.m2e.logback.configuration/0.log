@@ -416,3 +416,5 @@
 2017-09-12 14:04:56,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\Desktop\PM2017.2\PM2017.2\src\main\resources
 2017-09-12 14:04:56,976 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-09-12 14:04:56,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JonathamPetzolddeSou\Desktop\PM2017.2\PM2017.2\src\test\resources
+2017-09-26 16:01:03,532 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-04 09:45:08,380 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
